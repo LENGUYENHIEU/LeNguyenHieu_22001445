@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    padding: 8px 15px;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-outline-light {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+/* Main styles */
+main {
+    padding: 20px 0;
+}
+
+.banner {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.banner-text {
+    margin-bottom: 20px;
+}
+
+.banner-text h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.banner-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.categories h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.list-group-horizontal {
+    display: flex;
+    overflow-x: auto;
+}
+
+.list-group-item {
+    border: none;
+    margin-right: 10px;
+}
+
+.promotions {
+    padding: 50px 0;
+}
+
+.promotions h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+.social-media-links a {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.social-media-links a:hover {
+    color: #ccc;
+}
